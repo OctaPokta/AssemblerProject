@@ -1,0 +1,38 @@
+-----------------------------------------------------------
+                Final Product of My Assembler
+                        Version 1.0
+                       August 8, 2024
+
+            *** PLEASE READ THIS BEFORE RUNNING ***
+                        SUPER IMPORTANT
+-----------------------------------------------------------
+
+Here are a few important details before running the program:
+
+1. All input files should be placed under the main directory (i.e., "Maman14 - Gal Reuveni").
+2. All the ".am" files are created under the /pre_processing/ directory.
+3. The output files are created under the /output/ directory.
+
+-----------------------------------------------------------
+                            Notes
+-----------------------------------------------------------
+
+* I added a directory with multiple run examples, as requested. It is splitted into three categories:
+- No errors (success)
+- Errors
+- Command-line argument errors
+
+* Some of the examples also contain screenshots. For some of them, I linked screenshots of "valgrind" to prove that there aren't any memory leaks or errors.
+
+* /pre_processing/ takes care of the pre_assembler process, while /assembler/ takes care of the assembler process.
+
+* Each .h or .c file contain description for every file, function or important data. it is recommended to read it before making any changes or debugging. 
+
+* Optional: use "make clean" in order to clean all the object files.
+
+* Optional: there are three optional functions that aren't part of the assembler and can be used for test-purposes only, in order to print data on screen. they are under /assembler/assembler.h, named: "printPCmemory()", "printLabel()" and "printInstructionImage()".
+
+-----------------------------------------------------------
+            That's all, enjoy the program :)
+-----------------------------------------------------------
+                Created by - Gal Reuveni.
