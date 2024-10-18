@@ -11,7 +11,7 @@ Here are a few important details before running the program:
 
 1. All input files should be placed under the main directory (i.e., "Maman14 - Gal Reuveni").
 2. All the ".am" files are created under the /pre_processing/ directory.
-3. The output files are created under the /output/ directory.
+3. The output files will be generated in the /output/ directory.
 
 -----------------------------------------------------------
                             Notes
@@ -22,7 +22,7 @@ Here are a few important details before running the program:
 - Errors
 - Command-line argument errors
 
-* Some of the examples also contain screenshots. For some of them, I linked screenshots of "valgrind" to prove that there aren't any memory leaks or errors.
+* Some of the examples also contain screenshots. For some of them, I linked screenshots of "valgrind" to show that there aren't any memory leaks or errors.
 
 * /pre_processing/ takes care of the pre_assembler process, while /assembler/ takes care of the assembler process.
 
@@ -30,7 +30,7 @@ Here are a few important details before running the program:
 
 * Optional: use "make clean" in order to clean all the object files.
 
-* Optional: there are three optional functions that aren't part of the assembler and can be used for test-purposes only, in order to print data on screen. they are under /assembler/assembler.h, named: "printPCmemory()", "printLabel()" and "printInstructionImage()".
+* Optional: there are three optional functions that aren't part of the assembler and can be used for test-purposes only, in order to print data on screen. they are under /assembler/assembler.h, named as: "printPCmemory()", "printLabel()" and "printInstructionImage()".
 
 -----------------------------------------------------------
             That's all, enjoy the program :)
